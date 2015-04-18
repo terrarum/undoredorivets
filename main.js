@@ -171,7 +171,7 @@ $(function() {
         if (command !== undefined) {
             undoQueue.push(command);
 
-            executeCommand(command);
+            executeCommand(command, true);
         }
     });
 
